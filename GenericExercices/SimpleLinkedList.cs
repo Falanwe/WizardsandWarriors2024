@@ -23,7 +23,9 @@ namespace GenericExercices
 
         public void InsertAfter(SimpleLinkedListNode<T> node, T element) => throw new NotImplementedException();
 
-        public void InsertBefore(SimpleLinkedListNode<T> node, T element) => throw new NotImplementedException(); 
+        public void InsertBefore(SimpleLinkedListNode<T> node, T element) => throw new NotImplementedException();
+        
+        public void Remove(SimpleLinkedListNode<T> node) => throw new NotImplementedException();
         
         public int Count => throw new NotImplementedException();
     }
