@@ -134,5 +134,28 @@ namespace GenericTests
             var list = CreateBlahBlihBlohList();
             Assert.IsTrue(list.SequenceEqual(new[] {"blah", "blih", "bloh"}));
         }
+
+        [TestMethod]
+        public void IndexerGet()
+        {
+            var list = Create123List();
+            Assert.AreEqual(list[0], 1);
+            Assert.AreEqual(list[1], 2);
+            Assert.AreEqual(list[2], 3);
+        }
+
+        [TestMethod]
+        public void IndexerSet()
+        {
+            var list = CreateBlahBlihBlohList();
+            list[0] = "bluh";
+            list[1] = "bleh";
+            list[3] = "blyh";
+            Assert.AreEqual(list.Count, 4);
+            Assert.AreEqual(list[0], "bluh");
+            Assert.AreEqual(list[1], "bleh");
+            Assert.AreEqual(list[2], "bloh");
+            Assert.AreEqual(list[3], "blyh");
+        }
     }
 }

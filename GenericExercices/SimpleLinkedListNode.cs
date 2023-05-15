@@ -8,12 +8,12 @@ namespace GenericExercices
 {
     public class SimpleLinkedListNode<T>
     {
-        public T Value
+        internal SimpleLinkedListNode(T? element)
         {
-            get
-            {
-                throw new NotImplementedException();
-            }
+            Value = element;
         }
+
+        public T? Value { get; internal set; }
+        internal SimpleLinkedListNode<T>? NextNode { get; set; }
     }
 }
