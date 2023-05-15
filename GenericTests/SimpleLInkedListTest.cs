@@ -127,5 +127,12 @@ namespace GenericTests
             Assert.AreEqual(list.GetElementAt(0), 1);
             Assert.AreEqual(list.GetElementAt(1), 3);
         }
+
+        [TestMethod]
+        public void IEnumerableTest()
+        {
+            var list = CreateBlahBlihBlohList();
+            Assert.IsTrue(list.SequenceEqual(new[] {"blah", "blih", "bloh"}));
+        }
     }
 }

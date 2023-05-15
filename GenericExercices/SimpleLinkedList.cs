@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace GenericExercices
 {
-    public class SimpleLinkedList<T>
+    public class SimpleLinkedList<T> : IEnumerable<T>
     {
         public SimpleLinkedList<T> Empty => throw new NotImplementedException();
 
@@ -26,7 +27,17 @@ namespace GenericExercices
         public void InsertBefore(SimpleLinkedListNode<T> node, T element) => throw new NotImplementedException();
         
         public void Remove(SimpleLinkedListNode<T> node) => throw new NotImplementedException();
-        
+
+        public IEnumerator<T> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
         public int Count => throw new NotImplementedException();
     }
 }
