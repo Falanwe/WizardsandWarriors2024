@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WizardsandWarriors.Models
 {
-    class Sword : Weapon
+    public class Sword : Weapon
     {
     }
 }

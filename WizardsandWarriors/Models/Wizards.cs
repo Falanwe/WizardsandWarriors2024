@@ -8,5 +8,10 @@ namespace WizardsandWarriors.Models
 {
     class Wizard : Player
     {
+        public new Staff? EquippedWeapon
+        {
+            get => (Staff?)base.EquippedWeapon;
+            set => base.EquippedWeapon = value;
+        }
     }
 }

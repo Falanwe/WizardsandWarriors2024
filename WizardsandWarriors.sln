@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizardsandWarriors", "WizardsandWarriors\WizardsandWarriors.csproj", "{6E5FB923-A693-4AB6-BEE0-57201CB98C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WizardsandWarriors", "WizardsandWarriors\WizardsandWarriors.csproj", "{6E5FB923-A693-4AB6-BEE0-57201CB98C38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericExercices", "GenericExercices\GenericExercices.csproj", "{4E63C448-B3C5-44C2-B49E-A0ED206EAB44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTests", "GenericTests\GenericTests.csproj", "{6638D0EF-2DF1-4FC8-9877-D7A859BC9422}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6E5FB923-A693-4AB6-BEE0-57201CB98C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E5FB923-A693-4AB6-BEE0-57201CB98C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E5FB923-A693-4AB6-BEE0-57201CB98C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E63C448-B3C5-44C2-B49E-A0ED206EAB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E63C448-B3C5-44C2-B49E-A0ED206EAB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E63C448-B3C5-44C2-B49E-A0ED206EAB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E63C448-B3C5-44C2-B49E-A0ED206EAB44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6638D0EF-2DF1-4FC8-9877-D7A859BC9422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6638D0EF-2DF1-4FC8-9877-D7A859BC9422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6638D0EF-2DF1-4FC8-9877-D7A859BC9422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6638D0EF-2DF1-4FC8-9877-D7A859BC9422}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
