@@ -10,17 +10,21 @@ namespace GenericExercices
     {
         public static void Swap<T>(ref T arg1, ref T arg2)
         {
-            throw new NotImplementedException();
+            var tmp = arg1;
+            arg1 = arg2;
+            arg2 = tmp;
         }
 
         public static void Swap<T>(T[] array, int index1, int index2)
         {
-            throw new NotImplementedException();
+            (array[index2], array[index1]) = (array[index1], array[index2]);
         }
 
         public static void Swap<T>(IList<T> list, int index1, int index2)
         {
-            throw new NotImplementedException();
+            var tmp = list[index1];
+            list[index1] = list[index2];
+            list[index2] = tmp;
         }
     }
 }

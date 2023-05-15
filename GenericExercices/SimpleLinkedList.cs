@@ -9,8 +9,6 @@ namespace GenericExercices
 {
     public class SimpleLinkedList<T> : IEnumerable<T>
     {
-        public SimpleLinkedList<T> Empty => throw new NotImplementedException();
-
         public void Add(T element) => throw new NotImplementedException();
         public void Add(T element, bool addInFront) => throw new NotImplementedException();
 

@@ -41,9 +41,9 @@ namespace GenericTests
         {
             var list = Create123List();
             Assert.AreEqual(list.Count, 3);
-            Assert.AreEqual(list.GetElementAt(1), 1);
-            Assert.AreEqual(list.GetElementAt(2), 2);
-            Assert.AreEqual(list.GetElementAt(3), 3);
+            Assert.AreEqual(list.GetElementAt(0), 1);
+            Assert.AreEqual(list.GetElementAt(1), 2);
+            Assert.AreEqual(list.GetElementAt(2), 3);
         }
 
         [TestMethod]
@@ -63,7 +63,7 @@ namespace GenericTests
         {
             var list = Create123List();
             list.InsertAt(2, 42);
-            Assert.AreEqual(list.Count, 3);
+            Assert.AreEqual(list.Count, 4);
             Assert.AreEqual(list.GetElementAt(0), 1);
             Assert.AreEqual(list.GetElementAt(1), 2);
             Assert.AreEqual(list.GetElementAt(2), 42);
